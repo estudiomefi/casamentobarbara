@@ -29,8 +29,13 @@
   background-size:contain;
  
 }
-@media(max-width:600px)/*aqui você define a largura do dispositivo*/
-{    .bgimage{    background: url('/images/media.png') no-repeat;}    
+@media(max-width:450px)/*aqui você define a largura do dispositivo*/
+{    .bgimage{    
+  background: url('/images/media.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}    
 }
 .bgimage h5 {
   color:white;
