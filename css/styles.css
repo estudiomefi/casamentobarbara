@@ -32,11 +32,15 @@
 @media(max-width:600px)/*aqui você define a largura do dispositivo*/
 {    .bgimage{ 
   width: 100%;
-  height: 350px;   
+  height: 300px;   
   background: url('/images/media.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
+}
+.container-fluid{
+  padding: 0;
+  margin: 0;
 }    
 }
 .bgimage h5 {
