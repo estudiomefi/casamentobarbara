@@ -149,15 +149,12 @@
     </main>
 
     <footer>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScgdleCvrnJb002A_wvIT-m3qkVIhR7VBxfuj_LSm2C9QtyaA/viewform?embedded=true"
-        width="640"
-        height="1231"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        >Carregando…</iframe
-      >
+      <form method="post" name="meu-form" action="send-mail.php">
+        Nome: <input type="text" name="nome" /> Email:
+        <input type="text" name="email" /> Mensagem:
+        <textarea name="mensagem"></textarea>
+        <input type="submit" value="Enviar" />
+      </form>
     </footer>
   </body>
 </html>
